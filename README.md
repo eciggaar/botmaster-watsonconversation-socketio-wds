@@ -22,7 +22,7 @@ The following steps are optional.
 
 1. To get your own copy of the sample application that integrates with Watson Conversation and exposes its responses via socket.io, click the **Deploy to IBM Cloud** button. Open this link in a new tab by right-clicking the button below and select **Open Link in New Tab**.
 
-  [![Deploy to IBM Cloud](https://metrics-tracker.mybluemix.net/stats/cb0c3591b2baac93bf1de81cc6a0af72/button.svg)](https://bluemix.net/deploy?repository=https://github.com/eciggaar/botmaster-watsonconversation-socketio-wds)
+  [![Deploy to IBM Cloud](https://metrics-tracker.mybluemix.net/stats/513a455a64908c901fc47ab99ddd9654/button.svg)](https://bluemix.net/deploy?repository=https://github.com/eciggaar/botmaster-watsonconversation-socketio-wds)
 
 2. Login to IBM Cloud.
 

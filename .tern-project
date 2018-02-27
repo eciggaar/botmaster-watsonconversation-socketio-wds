@@ -1,0 +1,11 @@
+{
+  "ecmaVersion": 6,
+  "libs": [],
+  "loadEagerly": ["./middleware"],
+  "dontLoad": [
+    "node_modules/**"
+  ],
+  "plugins": {
+    "doc_comment": true
+  }
+}
