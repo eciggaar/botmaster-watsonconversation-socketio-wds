@@ -1,0 +1,33 @@
+{
+  "name": "botmaster-watsonconversation-socketio",
+  "version": "1.0.0",
+  "description": "Sample application that leverages botmaster and Watson Conversation with socker.io as messaging channel",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "npm run lint",
+    "lint": "eslint .",
+    "autofix": "eslint --fix ."
+  },
+  "author": "Edward Ciggaar",
+  "engines": {
+    "node": "^6.9.5",
+    "npm": "^3.10.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eciggaar/botmaster-watsonconversation-socketio.git"
+  },
+  "dependencies": {
+    "botmaster": "^3.0.8",
+    "botmaster-fulfill": "^3.2.0",
+    "botmaster-fulfill-actions": "^1.0.0",
+    "botmaster-socket.io": "^1.0.2",
+    "cfenv": "^1.0.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "metrics-tracker-client": "^0.2.3",
+    "request-promise": "^4.2.0",
+    "watson-developer-cloud": "^3.0.5"
+  }
+}

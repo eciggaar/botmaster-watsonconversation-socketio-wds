@@ -1,0 +1,20 @@
+---
+declared-services:
+  conversation-service:
+    label: conversation
+    plan: free
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  name: watson-botmaster-socketio-wds
+  disk_quota: 512M
+  services:
+  - conversation-service
+  env:
+    SOCKETIO_BOT_ID: <your_socketio_bot_id>
+    WDS_USERNAME: <your_wds_username>
+    WDS_PASSWORD: <your_wds_password>
+    WDS_ENVIRONMENT_ID: <your_wds_environment_id>
+    WDS_COLLECTION_ID: <your_wds_collection_id>
+    WDS_CONFIGURATION_ID: <your_wds_configuration_id>
