@@ -9,7 +9,7 @@ Botmaster is a lightweight highly extendable, highly configurable chatbot framew
 
 * Create an IBM Cloud account
 
-    * [Sign Up](https://developer.ibm.com/sso/bmregistration) in IBM Cloud, or use an existing account. Your account must have available space for at least 1 application (256MB) and 3 services.
+    * [Sign Up](https://ibm.biz/BdZj8q) in IBM Cloud, or use an existing account. Your account must have available space for at least 1 application (256MB) and 3 services.
 
 The following steps are optional.
 
@@ -42,11 +42,11 @@ The following steps are optional.
 
 To make life a bit easier for you, we've included a sample workspace to give you a jump-start with your own workspace. The steps below describe how to import this workspace and how to link this to the application.
 
-1. Use Ctrl-click (or the equivalent action for your system) to open the <a href="https://ibm.box.com/v/demo-workspace" target=download>sample workspace</a> JSON file in a separate tab. Click **Download** to download this file to your own device.
+1. Use Ctrl-click (or the equivalent action for your system) to open the <a href="https://ibm.box.com/v/it-support-bot" target=download>sample workspace</a> JSON file in a separate tab. Click **Download** to download this file to your own device.
 
   ![Download workspace][5]
 
-2. Open your IBM Cloud application [dashboard](https://console.ng.bluemix.net) and select the `conversation-service` that was created for you during the deployment process. Click on **Launch tool** to open the Watson Conversation Tooling. You might need to switch region and/or space to match the selection you've made in Step 4 of [Getting Started with Botmaster on IBM Cloud](#getting-started-with-botmaster-on-ibm-cloud)
+2. Open your IBM Cloud application [dashboard](https://console.bluemix.net) and select the `conversation-service` that was created for you during the deployment process. Click on **Launch tool** to open the Watson Conversation Tooling. You might need to switch region and/or space to match the selection you've made in Step 4 of [Getting Started with Botmaster on IBM Cloud](#getting-started-with-botmaster-on-ibm-cloud)
 
   ![Launch tool][6]
 
@@ -58,7 +58,7 @@ To make life a bit easier for you, we've included a sample workspace to give you
 
 1. Make sure the Watson Conversation Tooling is opened and that the workspaces overview page is active. If not, follow Step 2 in the section above to open the tooling page.
 
-2. Next, click the actions (3 dots) of the `Demo Workspace` tile and select **View Details**.
+2. Next, click the actions (3 dots) of the `IT Support bot` tile and select **View Details**.
 
   ![Get workspace ID][8]
 
